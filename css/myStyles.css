@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    background-color: #8fbc8f;
+    background-color: #bbe2bb;
 }
 
 header a{
@@ -14,7 +14,9 @@ header a{
 
 nav{
     background-color: #87cefa;
-    display: inline-block;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
     width: 90%;
 }
 
@@ -72,4 +74,5 @@ h1{
 p {
     line-height: 50px;
     text-align: center;
+
 }
